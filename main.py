@@ -1,4 +1,11 @@
 import flask as mian
 mmian = mian.Flask("app")
-mmian.route("/", lambda mian: "int mian {<br>return 0;<br>}")
+@mmian.route("/")
+def miaan():
+    return '''#include <iostream>
+using namespace std;
+
+int mian() {
+    return 0;
+}'''
 mmian.run("0.0.0.0", 8080)
