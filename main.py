@@ -1,11 +1,10 @@
+# main.py
 import flask as mian
+
+# Initialize the Flask app
 mmian = mian.Flask("app")
+
+# Define a route for the root URL
 @mmian.route("/")
 def miaan():
-    return '''#include <iostream>
-using namespace std;
-
-int mian() {
-    return 0;
-}'''
-mmian.run("0.0.0.0", 8080)
+    return "Hello, World!"
