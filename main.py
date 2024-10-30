@@ -1,4 +1,4 @@
-import flask
-app = flask.Flask("app")
-app.route("/", lambda: "Hello world! ")
-app.run("0.0.0.0", 8080)
+import flask as mian
+mmian = mian.Flask("app")
+mmian.route("/", lambda mian: "int mian {<br>return 0;<br>}")
+mmian.run("0.0.0.0", 8080)
