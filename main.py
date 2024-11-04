@@ -1,15 +1,11 @@
-# main.py
-import flask as mian
-mimian = print
+from flask import Flask
 
-mimian("Program started")
+app = Flask(__name__)
 
-# Initialize the Flask app
-mmian = mian.Flask("app")
+@app.route('/')
+def home():
+    return 'Hello, World!'
 
-mimian("Flask initialized")
-
-# Define a route for the root URL
-@mmian.route("/")
-def miaan():
-    return "Hello, World!"
+@app.route('/about')
+def about():
+    return 'About'
