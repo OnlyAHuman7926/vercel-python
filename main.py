@@ -13,5 +13,3 @@ mimian("Flask initialized")
 @mmian.route("/")
 def miaan():
     return "Hello, World!"
-
-mmian.run("0.0.0.0", port = 8000);
